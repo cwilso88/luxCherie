@@ -643,6 +643,29 @@ background-color: #66666696;
    .footer ul {
       text-align: center;
    }
+
+   .demo-banner {
+      background: url(../images/client-images/reduced-sized/header-image-small.jpeg) no-repeat;
+      background-position: right 0px;
+   }
+   .some_features {
+      background: url(../images/client-images/reduced-sized/parrallax-feature-small.jpeg) no-repeat;
+   }
+   .parallax_set {
+      background: url(../images/client-images/reduced-sized/parrallax-feature-small.jpeg) no-repeat;
+   }
+   .support_demo {
+      background: url(../images/client-images/reduced-sized/parrallax-feature2-small.jpeg) no-repeat;
+   }
+   .some_features, .parallax_set, .support_demo {
+      background-attachment: inherit;
+      background-position: center center;
+      -webkit-background-size: cover;
+      background-size: cover;
+   }
+   .retina-text {
+      padding-bottom: 50px;
+   }
 }
 @media (max-width: 767px) {
 
